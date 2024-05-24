@@ -12,6 +12,7 @@ const Buttons = () => {
         bottom: '20px',
         cursor: 'pointer',
         zIndex: '999',
+        border:'none',
         outline:'none',
         '&:focus': {
         outline: 'none', // Remove outline on focus
