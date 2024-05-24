@@ -16,7 +16,7 @@ const Card3 = () => {
     fontFamily: 'Arial, sans-serif',
     position: 'relative',
     height: '350px',
-    width: '430px',
+    width: '410px',
     overflow: 'hidden',
     marginTop: '20px',
     fontSize: '22px',
