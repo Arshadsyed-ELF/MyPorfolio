@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { FaPlus, FaQrcode, FaUpload } from 'react-icons/fa';
-import { UserContext } from '../ContextApi/UserContext';
 
 const Buttons = () => {
 
@@ -14,6 +13,7 @@ const Buttons = () => {
         cursor: 'pointer',
         zIndex: '999',
     };
+
     const leftButtonsStyle = {
         display: 'flex',
         gap: '16px',
@@ -29,15 +29,6 @@ const Buttons = () => {
         cursor: 'pointer',
     };
 
-    const iconStyle = {
-        marginRight: '8px',
-        fontSize: '24px',
-    };
-
-    const textStyle = {
-        fontSize: '16px',
-    };
-
     const container2 = {
         position: 'fixed',
         bottom: '20px',
@@ -47,7 +38,8 @@ const Buttons = () => {
         paddingRight: '10px',
     };
 
-    const handleShare = () => {
+    const handleShare = (event) => {
+        event.stopPropagation();
         if (navigator.share) {
             navigator.share({
                 title: 'Check out my portfolio',
@@ -63,11 +55,20 @@ const Buttons = () => {
         }
     };
 
+    const handleQrCodeClick = (event) => {
+        event.stopPropagation();
+        // Add your QR code functionality here
+        console.log('QR Code button clicked');
+    };
+
     return (
         <div>
             <div style={containerStyle}>
                 <div style={leftButtonsStyle}>
-                    <button style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}>
+                    <button 
+                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}
+                        onClick={handleQrCodeClick}
+                    >
                         <span style={{ fontSize: '24px' }}><FaQrcode /></span>
                     </button>
                     <button
