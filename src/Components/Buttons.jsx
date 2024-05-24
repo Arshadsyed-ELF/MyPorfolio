@@ -12,38 +12,23 @@ const Buttons = () => {
         bottom: '20px',
         cursor: 'pointer',
         zIndex: '999',
-        border:'none',
-        outline:'none',
-        '&:focus': {
-        outline: 'none', // Remove outline on focus
-    },
-
     };
 
     const leftButtonsStyle = {
         display: 'flex',
         gap: '16px',
-        outline:'none',
-        '&:focus': {
-        outline: 'none', // Remove outline on focus
-    },
-
     };
 
     const buttonStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#ff6f00', // Orange background
-    color: 'white',
-    border: 'none',
-    cursor: 'pointer',
-    outline: 'none', // Remove default outline
-    '&:focus': {
-        outline: 'none', // Remove outline on focus
-    },
-};
-
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#ff6f00', // Orange background
+        color: 'white',
+        border: 'none',
+        cursor: 'pointer',
+        outline: 'none', // Remove default outline
+    };
 
     const container2 = {
         position: 'fixed',
@@ -52,11 +37,6 @@ const Buttons = () => {
         cursor: 'pointer',
         zIndex: '999',
         paddingRight: '7px',
-        outline:'none',
-        '&:focus': {
-        outline: 'none', // Remove outline on focus
-    }
-
     };
 
     const handleShare = (event) => {
@@ -87,14 +67,14 @@ const Buttons = () => {
             <div style={containerStyle}>
                 <div style={leftButtonsStyle}>
                     <button 
-                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',marginRight:"20px",marginLeft:"15px",outline:"none" }}
+                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',marginRight:"20px",marginLeft:"15px" }}
                         onClick={handleQrCodeClick}
                     >
                         <span style={{ fontSize: '24px' }}><FaQrcode /></span>
                     </button>
                 </div>
                 <button
-                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',outline:"none" }}
+                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}
                         onClick={handleShare}
                     >
                         <span style={{ fontSize: '24px' }}><FaUpload /></span>
