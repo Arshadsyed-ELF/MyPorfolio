@@ -47,20 +47,20 @@ const Card1 = () => {
   const nameStyle = {
     fontSize: '1.6rem',
     marginBottom: '0.5rem',
-    marginRight:"45px"
+    marginRight:"40px"
   }
 
   const companyStyle = {
     fontSize: '15px',
     marginBottom: '0.5rem',
-    marginRight:"75px"
+    marginRight:"68px"
 
   };
 
   const titleStyle = {
     fontSize: '15px',
     fontWeight:'bold',
-    marginRight:"45px"
+    marginRight:"40px"
 
   };
 
