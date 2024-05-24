@@ -12,14 +12,20 @@ const Buttons = () => {
         bottom: '20px',
         cursor: 'pointer',
         zIndex: '999',
-        outline:'none'
+        outline:'none',
+        '&:focus': {
+        outline: 'none', // Remove outline on focus
+    },
 
     };
 
     const leftButtonsStyle = {
         display: 'flex',
         gap: '16px',
-        outline:'none'
+        outline:'none',
+        '&:focus': {
+        outline: 'none', // Remove outline on focus
+    },
 
     };
 
@@ -45,7 +51,10 @@ const Buttons = () => {
         cursor: 'pointer',
         zIndex: '999',
         paddingRight: '7px',
-        outline:'none'
+        outline:'none',
+        '&:focus': {
+        outline: 'none', // Remove outline on focus
+    }
 
     };
 
