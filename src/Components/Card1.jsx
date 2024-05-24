@@ -17,8 +17,8 @@ const Card1 = () => {
     textAlign: 'center',
     fontFamily: 'Arial, sans-serif',
     position: 'relative',
-    height: '600px',
-    width: '430px',
+    height: '580px',
+    width: '410px',
     overflow: 'hidden',
     marginTop: '20px',
     boxShadow: '0 0.1em 0.8em -0.5em white',
@@ -47,36 +47,36 @@ const Card1 = () => {
   const nameStyle = {
     fontSize: '1.6rem',
     marginBottom: '0.5rem',
-    marginRight:"70px"
+    marginRight:"50px"
   }
 
   const companyStyle = {
     fontSize: '15px',
     marginBottom: '0.5rem',
-    marginRight:"100px"
+    marginRight:"80px"
 
   };
 
   const titleStyle = {
     fontSize: '15px',
     fontWeight:'bold',
-    marginRight:"70px"
+    marginRight:"50px"
 
   };
 
   const icons ={
     // height:"50px"
-    marginRight:'180px',
+    marginRight:'160px',
     marginTop:'15px',
 
      }
 
   const iconStyle = {
     fontSize: '30px',
-    padding:'10px',
+    padding:'7px',
     backgroundColor: "rgb(253,128,49)",
     color: 'white',
-    margin: '5px 5px 0 5px', 
+    margin: '5px 5px 5px 5px', 
     borderRadius:'50%'
   };
 
@@ -177,6 +177,7 @@ const Card1 = () => {
         <div style={profileImageContainerStyle}>
             <img src={profilepic} alt="Profile" style={profileImageStyle} />
         </div>
+        <br/>
         <div style={{marginRight:"200px", marginTop:"15px"}}>
 
   <div  style={nameStyle}>Syed Arshad</div>
