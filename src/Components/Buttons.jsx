@@ -12,11 +12,15 @@ const Buttons = () => {
         bottom: '20px',
         cursor: 'pointer',
         zIndex: '999',
+        outline:'none'
+
     };
 
     const leftButtonsStyle = {
         display: 'flex',
         gap: '16px',
+        outline:'none'
+
     };
 
     const buttonStyle = {
@@ -27,6 +31,7 @@ const Buttons = () => {
         color: 'white',
         border: 'none',
         cursor: 'pointer',
+        outline:'none'
     };
 
     const container2 = {
@@ -36,6 +41,8 @@ const Buttons = () => {
         cursor: 'pointer',
         zIndex: '999',
         paddingRight: '7px',
+        outline:'none'
+
     };
 
     const handleShare = (event) => {
