@@ -35,7 +35,7 @@ const Buttons = () => {
         right: '15px',
         cursor: 'pointer',
         zIndex: '999',
-        paddingRight: '10px',
+        paddingRight: '8px',
     };
 
     const handleShare = (event) => {
@@ -66,7 +66,7 @@ const Buttons = () => {
             <div style={containerStyle}>
                 <div style={leftButtonsStyle}>
                     <button 
-                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',marginRight:"20px",marginLeft:"15px" }}
+                        style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',marginRight:"15px",marginLeft:"10px" }}
                         onClick={handleQrCodeClick}
                     >
                         <span style={{ fontSize: '24px' }}><FaQrcode /></span>
