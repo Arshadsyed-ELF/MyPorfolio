@@ -31,7 +31,7 @@ const Card4 = () => {
 
   const arrowStyle = {
     fontSize: '24px',
-    paddingLeft: '220px'
+    paddingLeft: '170px'
 
   };
 
