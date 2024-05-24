@@ -57,7 +57,7 @@ import { UserContext } from '../ContextApi/UserContext';
             <button style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}>
             <span style={{ fontSize: '24px' }}><FaQrcode/></span>
             </button>
-            <a href=''>
+            <a href='https://my-porfolio-drab-tau.vercel.app/'>
             <button style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}>
             <span style={{ fontSize: '24px' }}><FaUpload/></span>
             </button>
