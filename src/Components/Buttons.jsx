@@ -66,19 +66,19 @@ const Buttons = () => {
         <div>
             <div style={containerStyle}>
                 <div style={leftButtonsStyle}>
-                    <p
+                    <button
                         style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px',marginRight:"20px",marginLeft:"15px" }}
                         onClick={handleQrCodeClick}
                     >
                         <span style={{ fontSize: '24px' }}><FaQrcode /></span>
-                    </p>
+                    </button>
                 </div>
-                <p
+                <button
                         style={{ ...buttonStyle, width: '64px', height: '64px', borderRadius: '50%', fontSize: '24px' }}
                         onClick={handleShare}
                     >
                         <span style={{ fontSize: '24px' }}><FaUpload /></span>
-                    </p>
+                    </button>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', marginTop: "50px" }}>
                     <a href="data:text/plain,9505221870" download="syedArshad.vcf" style={container2}>
                         <button style={{ backgroundColor: "rgb(253, 128, 49)", width: "150px", height: "64px", color: "white", border: "none", borderRadius: "25px", fontSize: "15px", position: 'relative', padding: '10px 20px', cursor: "pointer" }}>
