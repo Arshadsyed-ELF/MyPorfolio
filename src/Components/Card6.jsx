@@ -10,7 +10,7 @@ const Card6 = () => {
     fontFamily: 'Arial, sans-serif',
     position: 'relative',
     height: '210px',
-    width: '430px',
+    width: '410px',
     overflow: 'hidden',
     marginTop: '20px',
     fontSize: '25px',
@@ -33,12 +33,12 @@ const Card6 = () => {
 
   const arrowStyle = {
     fontSize: '24px',
-    paddingLeft: '170px'
+    paddingLeft: '140px'
   };
 
   const iconstyle = {
     borderRadius: '50%',
-    width: '30px',
+    width: '35px',
     height: '50px',
     color:'black'
     
