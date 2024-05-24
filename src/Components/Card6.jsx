@@ -33,7 +33,7 @@ const Card6 = () => {
 
   const arrowStyle = {
     fontSize: '24px',
-    paddingLeft: '140px'
+    paddingLeft: '130px'
   };
 
   const iconstyle = {
