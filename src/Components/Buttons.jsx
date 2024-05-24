@@ -24,15 +24,19 @@ const Buttons = () => {
     };
 
     const buttonStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#ff6f00', // Orange background
-        color: 'white',
-        border: 'none',
-        cursor: 'pointer',
-        outline:'none'
-    };
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#ff6f00', // Orange background
+    color: 'white',
+    border: 'none',
+    cursor: 'pointer',
+    outline: 'none', // Remove default outline
+    '&:focus': {
+        outline: 'none', // Remove outline on focus
+    },
+};
+
 
     const container2 = {
         position: 'fixed',
