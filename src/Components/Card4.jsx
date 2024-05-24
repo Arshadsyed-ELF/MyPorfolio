@@ -9,7 +9,7 @@ const Card4 = () => {
     fontFamily: 'Arial, sans-serif',
     position: 'relative',
     height: '180px',
-    width: '430px',
+    width: '410px',
     overflow: 'hidden',
     marginTop: '20px',
     fontSize: '25px',
